@@ -1,0 +1,6 @@
+mobile(Phone Number)
+
+@Pattern(
+    regexp = "^(?:\\+91|0)?[6-9]\\d{9}$",
+    message = "Enter Valid 10 Digit Mobile Number"
+)
