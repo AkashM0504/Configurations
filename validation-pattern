@@ -4,3 +4,8 @@ mobile(Phone Number)
     regexp = "^(?:\\+91|0)?[6-9]\\d{9}$",
     message = "Enter Valid 10 Digit Mobile Number"
 )
+
+Password
+
+@Pattern(regexp = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$%^&+=!]).{8,}$",
+			message = "Minimum one uppercase, lowercase,special character Number should be there")
