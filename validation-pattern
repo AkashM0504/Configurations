@@ -9,3 +9,11 @@ Password
 
 @Pattern(regexp = "^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[@#$%^&+=!]).{8,}$",
 			message = "Minimum one uppercase, lowercase,special character Number should be there")
+
+USN
+
+@Pattern(
+    regexp = "^[1-4][A-Z]{2}\\d{2}[A-Z]{2}\\d{3}$",
+    message = "Invalid USN format"
+)
+private String usn;
