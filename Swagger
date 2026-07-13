@@ -1,0 +1,8 @@
+Steps
+Open Maven Repository website
+Search:
+springdoc-openapi-starter-webmvc-ui
+Open the dependency page.
+Copy the Maven dependency code.
+Paste it inside pom.xml
+http://localhost:8080/swagger-ui/index.html#/
